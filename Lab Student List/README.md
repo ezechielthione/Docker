@@ -26,3 +26,5 @@ The objectives of this practical exam are to ensure that you are capable of mana
 - Vagrant: To launch our virtual machine with CentOS 7. Make sure to install it.
 - Docker
 - GitHub
+
+<b> Project correction: : </b> <a href="https://github.com/ezechielthione/Docker/blob/main/Lab%20Student%20List/Correction.md">See here</a>
