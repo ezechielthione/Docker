@@ -52,8 +52,6 @@ EXPOSE 5000
 CMD [ "python", "./student_age.py" ]
 ```
 
-### English Translation
-
 7. Build the image
 ```sh
 sudo docker build -t api-pozos:1 .
