@@ -1,0 +1,3 @@
+[submodule "dockerization-demo"]
+	path = dockerization-demo
+	url = https://github.com/Aurelie-Kamgang/dockerization-demo.git
