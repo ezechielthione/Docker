@@ -1,3 +1,6 @@
 [submodule "dockerization-demo"]
 	path = dockerization-demo
 	url = https://github.com/Aurelie-Kamgang/dockerization-demo.git
+[submodule "docker-init"]
+	path = docker-init
+	url = https://github.com/techiescamp/docker-init.git
