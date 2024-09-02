@@ -21,7 +21,7 @@ Certainly! Here's an example that demonstrates how `docker init` can be used to 
 Imagine you have a simple Python project with the following structure:
 
 ```plaintext
-my-python-app/
+python/
 │
 ├── app.py
 └── requirements.txt
@@ -55,7 +55,7 @@ Flask==2.0.1
 
 ### Running `docker init`
 
-When you navigate to the `my-python-app` directory and run the command:
+When you navigate to the `python` directory and run the command:
 
 ```bash
 docker init
@@ -107,8 +107,8 @@ CMD ["python", "app.py"]
 After running `docker init` and getting the `Dockerfile`, you can build and run your Docker container with the following commands:
 
 ```bash
-docker build -t my-python-app .
-docker run -p 5000:5000 my-python-app
+docker build -t python .
+docker run -p 5000:5000 python
 ```
 
 This will build the Docker image and run your Python application in a container, accessible at `http://localhost:5000`.
