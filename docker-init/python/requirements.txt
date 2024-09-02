@@ -1,0 +1,4 @@
+#requiremts.txt
+
+flask
+gunicorn
